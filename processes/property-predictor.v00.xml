@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?><process version="9.6.000">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="9.4.000" expanded="true" name="Process" origin="GENERATED_TUTORIAL">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <process expanded="true">
+      <operator activated="true" class="retrieve" compatibility="9.6.000" expanded="true" height="68" name="Retrieve onto_aPascal_home_domain" width="90" x="45" y="85">
+        <parameter key="repository_entry" value="../../../data/onto_aPascal/onto_aPascal_home_domain"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="9.6.000" expanded="true" height="82" name="Select Attributes (2)" width="90" x="313" y="34">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value="class 0|class 1|class 2|class 3|class 4|class 5|class 6|class 7|class_0|class_1|class_2|class_3|class_aPascal|Label|IMG_ID|ID"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="true"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="set_role" compatibility="9.6.000" expanded="true" height="82" name="Set Role (2)" width="90" x="447" y="34">
+        <parameter key="attribute_name" value="2D Boxy"/>
+        <parameter key="target_role" value="2D boxy"/>
+        <list key="set_additional_roles">
+          <parameter key="3D Boxy" value="3D Boxy"/>
+          <parameter key="Arm" value="Arm"/>
+          <parameter key="Beak" value="Beak"/>
+          <parameter key="Clear" value="Clear"/>
+          <parameter key="Cloth" value="Cloth"/>
+          <parameter key="Door" value="Door"/>
+          <parameter key="Ear" value="Ear"/>
+          <parameter key="Engine" value="Engine"/>
+          <parameter key="Exhaust" value="Exhaust"/>
+          <parameter key="Eye" value="Eye"/>
+          <parameter key="Face" value="Face"/>
+          <parameter key="Feather" value="Feather"/>
+          <parameter key="Flower" value="Flower"/>
+          <parameter key="Foot/Shoe" value="Foot/Shoe"/>
+          <parameter key="Furn. Arm" value="Furn. Arm"/>
+          <parameter key="Furn. Back" value="Furn. Back"/>
+          <parameter key="Furn. Leg" value="Furn. Leg"/>
+          <parameter key="Furn. Seat" value="Furn. Seat"/>
+          <parameter key="Furry" value="Furry"/>
+          <parameter key="Glass" value="Glass"/>
+          <parameter key="Hair" value="Hair"/>
+          <parameter key="Hand" value="Hand"/>
+          <parameter key="Handlebars" value="Handlebars"/>
+          <parameter key="Head" value="Head"/>
+          <parameter key="Headlight" value="Headlight"/>
+          <parameter key="Horiz Cyl" value="Horiz Cyl"/>
+          <parameter key="Horn" value="Horn"/>
+          <parameter key="Jet engine" value="Jet engine"/>
+          <parameter key="Leaf" value="Leaf"/>
+          <parameter key="Leather" value="Leather"/>
+          <parameter key="Leg" value="Leg"/>
+          <parameter key="Mast" value="Mast"/>
+          <parameter key="Metal" value="Metal"/>
+          <parameter key="Mouth" value="Mouth"/>
+          <parameter key="Nose" value="Nose"/>
+          <parameter key="Occluded" value="Occluded"/>
+          <parameter key="Pedal" value="Pedal"/>
+          <parameter key="Plastic" value="Plastic"/>
+          <parameter key="Pot" value="Pot"/>
+          <parameter key="Propeller" value="Propeller"/>
+          <parameter key="Rein" value="Rein"/>
+          <parameter key="Round" value="Round"/>
+          <parameter key="Row Wind" value="row wind"/>
+          <parameter key="Saddle" value="Saddle"/>
+          <parameter key="Sail" value="Sail"/>
+          <parameter key="Screen" value="Screen"/>
+          <parameter key="Shiny" value="Shiny"/>
+          <parameter key="Side mirro" value="Side mirro"/>
+          <parameter key="Skin" value="Skin"/>
+          <parameter key="Snout" value="Shout"/>
+          <parameter key="Stem/Trunk" value="Stem/Trunk"/>
+          <parameter key="Tail" value="Tail"/>
+          <parameter key="Taillight" value="Tailight"/>
+          <parameter key="Text" value="Text"/>
+          <parameter key="Torso" value="Torso"/>
+          <parameter key="Vegetation" value="Vegetation"/>
+          <parameter key="Vert Cyl" value="Vert Cyl"/>
+          <parameter key="Wheel" value="Wheel"/>
+          <parameter key="Window" value="Window"/>
+          <parameter key="Wing" value="Wing"/>
+          <parameter key="Wood" value="Wood"/>
+          <parameter key="Wool" value="Wool"/>
+          <parameter key="Route-No" value="Route-no"/>
+          <parameter key="Narrow-neck" value=" Narrow-neck"/>
+          <parameter key="Hull" value="Hull"/>
+          <parameter key="Upholstery" value="Upholstery"/>
+          <parameter key="Citizenship" value="Citizenship"/>
+          <parameter key="Plumage" value="Plumage"/>
+          <parameter key="Vertical-stabilizer" value="Vertical-stabilizer"/>
+          <parameter key="Chainset" value="Chainset"/>
+          <parameter key="Acriss-code" value="Acriss-code"/>
+          <parameter key="Retractable-claw" value="Retractable-claw"/>
+          <parameter key="Chair-apron" value="Chair-apron"/>
+          <parameter key="Cow-marker" value="Cow-marker"/>
+          <parameter key="Table-top" value="Table-top"/>
+          <parameter key="Barking" value="Barking"/>
+          <parameter key="Mane" value="Mane"/>
+          <parameter key="Throttle-grip" value="Throttle-grip"/>
+          <parameter key="Sheep-marker" value="Sheep-marker"/>
+          <parameter key="Locomotive" value="Locomotive"/>
+          <parameter key="Resolution" value="Resolution"/>
+          <parameter key="Light-need" value="Light-need"/>
+          <parameter key="Cell" value="Cell"/>
+          <parameter key="Control-type" value="Control-type"/>
+          <parameter key="Room-placement" value="Room-placement"/>
+          <parameter key="Item-number" value="Item-number"/>
+          <parameter key="Activity" value="Activity"/>
+          <parameter key="Participant" value="Participant"/>
+          <parameter key="Producer" value="Producer"/>
+          <parameter key="Consumer" value="Consumer"/>
+        </list>
+      </operator>
+      <operator activated="true" breakpoints="after" class="numerical_to_binominal" compatibility="9.6.000" expanded="true" height="82" name="Numerical to Binominal (2)" width="90" x="581" y="34">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value="exact-location-of"/>
+        <parameter key="attributes" value="2D Boxy|3D Boxy|Acriss-code|Activity|Arm|Barking|Beak|Cell|Chainset|Chair-apron|Citizenship|Clear|Cloth|Consumer|Control-type|Cow-marker|Door|Ear|Engine|Exhaust|Eye|Face|Feather|Flower|Foot/Shoe|Furn. Arm|Furn. Back|Furn. Leg|Furn. Seat|Furry|Glass|Hair|Hand|Handlebars|Head|Headlight|Horiz Cyl|Horn|Hull|Item-number|Jet engine|Leaf|Leather|Leg|Light-need|Locomotive|Mane|Mast|Metal|Mouth|Narrow-neck|Nose|Occluded|Participant|Pedal|Plastic|Plumage|Pot|Producer|Propeller|Rein|Resolution|Retractable-claw|Room-placement|Round|Route-No|Row Wind|Saddle|Sail|Screen|Sheep-marker|Shiny|Side mirro|Skin|Snout|Stem/Trunk|Table-top|Tail|Taillight|Text|Throttle-grip|Torso|Upholstery|Vegetation|Vert Cyl|Vertical-stabilizer|Wheel|Window|Wing|Wood|Wool"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="numeric"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="real"/>
+        <parameter key="block_type" value="value_series"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_series_end"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="true"/>
+        <parameter key="min" value="0.0"/>
+        <parameter key="max" value="0.0"/>
+      </operator>
+      <operator activated="true" class="time_series:multi_label_model_learner" compatibility="9.6.000" expanded="true" height="103" name="Multi Label Modeling (2)" origin="GENERATED_TUTORIAL" width="90" x="916" y="34">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value="2D Boxy|3D Boxy|Acriss-code|Activity|Arm|Barking|Beak|Cell|Chainset|Chair-apron|Citizenship|Clear|Cloth|Consumer|Control-type|Cow-marker|Door|Ear|Engine|Exhaust|Eye|Face|Feather|Flower|Foot/Shoe|Furn. Arm|Furn. Back|Furn. Leg|Furn. Seat|Furry|Glass|Hair|Hand|Handlebars|Head|Headlight|Horiz Cyl|Horn|Hull|Item-number|Jet engine|Leaf|Leather|Leg|Light-need|Locomotive|Mane|Mast|Metal|Mouth|Narrow-neck|Nose|Occluded|Participant|Pedal|Plastic|Plumage|Pot|Producer|Propeller|Rein|Resolution|Retractable-claw|Room-placement|Round|Route-No|Row Wind|Saddle|Sail|Screen|Sheep-marker|Shiny|Side mirro|Skin|Snout|Stem/Trunk|Table-top|Tail|Taillight|Text|Throttle-grip|Torso|Upholstery|Vegetation|Vert Cyl|Vertical-stabilizer|Wheel|Window|Wing|Wood|Wool"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="true"/>
+        <parameter key="add_macros" value="false"/>
+        <parameter key="current_label_name_macro" value="current_label_attribute"/>
+        <parameter key="current_label_type_macro" value="current_label_type"/>
+        <parameter key="enable_parallel_execution" value="true"/>
+        <process expanded="true">
+          <operator activated="true" class="concurrency:cross_validation" compatibility="8.2.000" expanded="true" height="145" name="Cross Validation" width="90" x="179" y="34">
+            <parameter key="split_on_batch_attribute" value="false"/>
+            <parameter key="leave_one_out" value="false"/>
+            <parameter key="number_of_folds" value="10"/>
+            <parameter key="sampling_type" value="automatic"/>
+            <parameter key="use_local_random_seed" value="false"/>
+            <parameter key="local_random_seed" value="1992"/>
+            <parameter key="enable_parallel_execution" value="true"/>
+            <process expanded="true">
+              <operator activated="false" class="k_nn" compatibility="9.6.000" expanded="true" height="82" name="k-NN" width="90" x="45" y="136">
+                <parameter key="k" value="5"/>
+                <parameter key="weighted_vote" value="true"/>
+                <parameter key="measure_types" value="MixedMeasures"/>
+                <parameter key="mixed_measure" value="MixedEuclideanDistance"/>
+                <parameter key="nominal_measure" value="NominalDistance"/>
+                <parameter key="numerical_measure" value="EuclideanDistance"/>
+                <parameter key="divergence" value="GeneralizedIDivergence"/>
+                <parameter key="kernel_type" value="radial"/>
+                <parameter key="kernel_gamma" value="1.0"/>
+                <parameter key="kernel_sigma1" value="1.0"/>
+                <parameter key="kernel_sigma2" value="0.0"/>
+                <parameter key="kernel_sigma3" value="2.0"/>
+                <parameter key="kernel_degree" value="3.0"/>
+                <parameter key="kernel_shift" value="1.0"/>
+                <parameter key="kernel_a" value="1.0"/>
+                <parameter key="kernel_b" value="0.0"/>
+              </operator>
+              <operator activated="false" class="auto_mlp" compatibility="9.6.000" expanded="true" height="82" name="AutoMLP" width="90" x="45" y="238">
+                <parameter key="training_cycles" value="10"/>
+                <parameter key="number_of_generations" value="10"/>
+                <parameter key="number_of_esemble_mlps" value="4"/>
+              </operator>
+              <operator activated="false" class="support_vector_machine" compatibility="9.6.000" expanded="true" height="124" name="SVM" width="90" x="45" y="442">
+                <parameter key="kernel_type" value="dot"/>
+                <parameter key="kernel_gamma" value="1.0"/>
+                <parameter key="kernel_sigma1" value="1.0"/>
+                <parameter key="kernel_sigma2" value="0.0"/>
+                <parameter key="kernel_sigma3" value="2.0"/>
+                <parameter key="kernel_shift" value="1.0"/>
+                <parameter key="kernel_degree" value="2.0"/>
+                <parameter key="kernel_a" value="1.0"/>
+                <parameter key="kernel_b" value="0.0"/>
+                <parameter key="kernel_cache" value="200"/>
+                <parameter key="C" value="0.0"/>
+                <parameter key="convergence_epsilon" value="0.001"/>
+                <parameter key="max_iterations" value="100000"/>
+                <parameter key="scale" value="true"/>
+                <parameter key="calculate_weights" value="true"/>
+                <parameter key="return_optimization_performance" value="true"/>
+                <parameter key="L_pos" value="1.0"/>
+                <parameter key="L_neg" value="1.0"/>
+                <parameter key="epsilon" value="0.0"/>
+                <parameter key="epsilon_plus" value="0.0"/>
+                <parameter key="epsilon_minus" value="0.0"/>
+                <parameter key="balance_cost" value="false"/>
+                <parameter key="quadratic_loss_pos" value="false"/>
+                <parameter key="quadratic_loss_neg" value="false"/>
+                <parameter key="estimate_performance" value="false"/>
+              </operator>
+              <operator activated="false" class="linear_regression" compatibility="9.6.000" expanded="true" height="103" name="Linear Regression" width="90" x="45" y="340">
+                <parameter key="feature_selection" value="M5 prime"/>
+                <parameter key="alpha" value="0.05"/>
+                <parameter key="max_iterations" value="10"/>
+                <parameter key="forward_alpha" value="0.05"/>
+                <parameter key="backward_alpha" value="0.05"/>
+                <parameter key="eliminate_colinear_features" value="true"/>
+                <parameter key="min_tolerance" value="0.05"/>
+                <parameter key="use_bias" value="true"/>
+                <parameter key="ridge" value="1.0E-8"/>
+              </operator>
+              <operator activated="true" class="naive_bayes" compatibility="9.6.000" expanded="true" height="82" name="Naive Bayes" width="90" x="45" y="34">
+                <parameter key="laplace_correction" value="true"/>
+              </operator>
+              <connect from_port="training set" to_op="Naive Bayes" to_port="training set"/>
+              <connect from_op="Naive Bayes" from_port="model" to_port="model"/>
+              <portSpacing port="source_training set" spacing="0"/>
+              <portSpacing port="sink_model" spacing="0"/>
+              <portSpacing port="sink_through 1" spacing="0"/>
+            </process>
+            <process expanded="true">
+              <operator activated="true" class="apply_model" compatibility="9.6.000" expanded="true" height="82" name="Apply Model (13)" width="90" x="112" y="34">
+                <list key="application_parameters"/>
+                <parameter key="create_view" value="false"/>
+              </operator>
+              <operator activated="true" class="performance_binominal_classification" compatibility="9.6.000" expanded="true" height="82" name="Performance" origin="GENERATED_SAMPLE" width="90" x="246" y="34">
+                <parameter key="manually_set_positive_class" value="false"/>
+                <parameter key="main_criterion" value="first"/>
+                <parameter key="accuracy" value="true"/>
+                <parameter key="classification_error" value="false"/>
+                <parameter key="kappa" value="false"/>
+                <parameter key="AUC (optimistic)" value="false"/>
+                <parameter key="AUC" value="true"/>
+                <parameter key="AUC (pessimistic)" value="false"/>
+                <parameter key="precision" value="false"/>
+                <parameter key="recall" value="false"/>
+                <parameter key="lift" value="false"/>
+                <parameter key="fallout" value="false"/>
+                <parameter key="f_measure" value="false"/>
+                <parameter key="false_positive" value="false"/>
+                <parameter key="false_negative" value="false"/>
+                <parameter key="true_positive" value="false"/>
+                <parameter key="true_negative" value="false"/>
+                <parameter key="sensitivity" value="false"/>
+                <parameter key="specificity" value="false"/>
+                <parameter key="youden" value="false"/>
+                <parameter key="positive_predictive_value" value="false"/>
+                <parameter key="negative_predictive_value" value="false"/>
+                <parameter key="psep" value="false"/>
+                <parameter key="skip_undefined_labels" value="true"/>
+                <parameter key="use_example_weights" value="true"/>
+              </operator>
+              <connect from_port="model" to_op="Apply Model (13)" to_port="model"/>
+              <connect from_port="test set" to_op="Apply Model (13)" to_port="unlabelled data"/>
+              <connect from_op="Apply Model (13)" from_port="labelled data" to_op="Performance" to_port="labelled data"/>
+              <connect from_op="Performance" from_port="performance" to_port="performance 1"/>
+              <connect from_op="Performance" from_port="example set" to_port="test set results"/>
+              <portSpacing port="source_model" spacing="0"/>
+              <portSpacing port="source_test set" spacing="0"/>
+              <portSpacing port="source_through 1" spacing="0"/>
+              <portSpacing port="sink_test set results" spacing="0"/>
+              <portSpacing port="sink_performance 1" spacing="0"/>
+              <portSpacing port="sink_performance 2" spacing="0"/>
+            </process>
+          </operator>
+          <operator activated="true" class="performance_to_data" compatibility="9.6.000" expanded="true" height="82" name="Performance to Data (2)" width="90" x="313" y="187"/>
+          <connect from_port="training set" to_op="Cross Validation" to_port="example set"/>
+          <connect from_op="Cross Validation" from_port="model" to_port="model"/>
+          <connect from_op="Cross Validation" from_port="performance 1" to_op="Performance to Data (2)" to_port="performance vector"/>
+          <connect from_op="Performance to Data (2)" from_port="example set" to_port="output 1"/>
+          <portSpacing port="source_training set" spacing="0"/>
+          <portSpacing port="source_input 1" spacing="0"/>
+          <portSpacing port="sink_model" spacing="0"/>
+          <portSpacing port="sink_output 1" spacing="0"/>
+          <portSpacing port="sink_output 2" spacing="0"/>
+        </process>
+      </operator>
+      <operator activated="true" class="append" compatibility="9.6.000" expanded="true" height="82" name="Append" width="90" x="849" y="493">
+        <parameter key="datamanagement" value="double_array"/>
+        <parameter key="data_management" value="auto"/>
+        <parameter key="merge_type" value="all"/>
+      </operator>
+      <operator activated="true" class="write_excel" compatibility="9.6.000" expanded="true" height="103" name="Write Excel (3)" width="90" x="849" y="595">
+        <parameter key="excel_file" value="/Users/mattiafumagalli/Desktop/aPascal-vision-test.xlsx"/>
+        <parameter key="file_format" value="xlsx"/>
+        <enumeration key="sheet_names"/>
+        <parameter key="sheet_name" value="RapidMiner Data"/>
+        <parameter key="date_format" value="yyyy-MM-dd HH:mm:ss"/>
+        <parameter key="number_format" value="#.0"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="9.6.000" expanded="true" height="68" name="Retrieve onto_aPascal_travel_domain" width="90" x="112" y="442">
+        <parameter key="repository_entry" value="../../../data/onto_aPascal/onto_aPascal_travel_domain"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="9.6.000" expanded="true" height="82" name="Select Attributes (4)" width="90" x="380" y="442">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value="class 0|class 1|class 2|class 3|class 4|class 5|class 6|class 7|class_0|class_1|class_2|class_3|class_aPascal|IMG_ID|Label"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="true"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="set_role" compatibility="9.6.000" expanded="true" height="82" name="Set Role" width="90" x="514" y="442">
+        <parameter key="attribute_name" value="2D Boxy"/>
+        <parameter key="target_role" value="2D boxy"/>
+        <list key="set_additional_roles">
+          <parameter key="3D Boxy" value="3D Boxy"/>
+          <parameter key="Arm" value="Arm"/>
+          <parameter key="Beak" value="Beak"/>
+          <parameter key="Clear" value="Clear"/>
+          <parameter key="Cloth" value="Cloth"/>
+          <parameter key="Door" value="Door"/>
+          <parameter key="Ear" value="Ear"/>
+          <parameter key="Engine" value="Engine"/>
+          <parameter key="Exhaust" value="Exhaust"/>
+          <parameter key="Eye" value="Eye"/>
+          <parameter key="Face" value="Face"/>
+          <parameter key="Feather" value="Feather"/>
+          <parameter key="Flower" value="Flower"/>
+          <parameter key="Foot/Shoe" value="Foot/Shoe"/>
+          <parameter key="Furn. Arm" value="Furn. Arm"/>
+          <parameter key="Furn. Back" value="Furn. Back"/>
+          <parameter key="Furn. Leg" value="Furn. Leg"/>
+          <parameter key="Furn. Seat" value="Furn. Seat"/>
+          <parameter key="Furry" value="Furry"/>
+          <parameter key="Glass" value="Glass"/>
+          <parameter key="Hair" value="Hair"/>
+          <parameter key="Hand" value="Hand"/>
+          <parameter key="Handlebars" value="Handlebars"/>
+          <parameter key="Head" value="Head"/>
+          <parameter key="Headlight" value="Headlight"/>
+          <parameter key="Horiz Cyl" value="Horiz Cyl"/>
+          <parameter key="Horn" value="Horn"/>
+          <parameter key="Jet engine" value="Jet engine"/>
+          <parameter key="Leaf" value="Leaf"/>
+          <parameter key="Leather" value="Leather"/>
+          <parameter key="Leg" value="Leg"/>
+          <parameter key="Mast" value="Mast"/>
+          <parameter key="Metal" value="Metal"/>
+          <parameter key="Mouth" value="Mouth"/>
+          <parameter key="Nose" value="Nose"/>
+          <parameter key="Occluded" value="Occluded"/>
+          <parameter key="Pedal" value="Pedal"/>
+          <parameter key="Plastic" value="Plastic"/>
+          <parameter key="Pot" value="Pot"/>
+          <parameter key="Propeller" value="Propeller"/>
+          <parameter key="Rein" value="Rein"/>
+          <parameter key="Round" value="Round"/>
+          <parameter key="Row Wind" value="row wind"/>
+          <parameter key="Saddle" value="Saddle"/>
+          <parameter key="Sail" value="Sail"/>
+          <parameter key="Screen" value="Screen"/>
+          <parameter key="Shiny" value="Shiny"/>
+          <parameter key="Side mirro" value="Side mirro"/>
+          <parameter key="Skin" value="Skin"/>
+          <parameter key="Snout" value="Shout"/>
+          <parameter key="Stem/Trunk" value="Stem/Trunk"/>
+          <parameter key="Tail" value="Tail"/>
+          <parameter key="Taillight" value="Tailight"/>
+          <parameter key="Text" value="Text"/>
+          <parameter key="Torso" value="Torso"/>
+          <parameter key="Vegetation" value="Vegetation"/>
+          <parameter key="Vert Cyl" value="Vert Cyl"/>
+          <parameter key="Wheel" value="Wheel"/>
+          <parameter key="Window" value="Window"/>
+          <parameter key="Wing" value="Wing"/>
+          <parameter key="Wood" value="Wood"/>
+          <parameter key="Wool" value="Wool"/>
+          <parameter key="Route-No" value="Route-no"/>
+          <parameter key="Narrow-Neck" value=" Narrow-neck"/>
+          <parameter key="Hull" value="Hull"/>
+          <parameter key="Upholstery" value="Upholstery"/>
+          <parameter key="Citizenship" value="Citizenship"/>
+          <parameter key="Plumage" value="Plumage"/>
+          <parameter key="Vertical-stabilizer" value="Vertical-stabilizer"/>
+          <parameter key="Chainset" value="Chainset"/>
+          <parameter key="Acriss-code" value="Acriss-code"/>
+          <parameter key="Retractable-claw" value="Retractable-claw"/>
+          <parameter key="Chair-apron" value="Chair-apron"/>
+          <parameter key="Cow-marker" value="Cow-marker"/>
+          <parameter key="Table-top" value="Table-top"/>
+          <parameter key="Barking" value="Barking"/>
+          <parameter key="Mane" value="Mane"/>
+          <parameter key="Throttle-grip" value="Throttle-grip"/>
+          <parameter key="Sheep-marker" value="Sheep-marker"/>
+          <parameter key="Locomotive" value="Locomotive"/>
+          <parameter key="Resolution" value="Resolution"/>
+          <parameter key="Light-need" value="Light-need"/>
+          <parameter key="Cell" value="Cell"/>
+          <parameter key="Control-type" value="Control-type"/>
+          <parameter key="Room-placement" value="Room-placement"/>
+          <parameter key="Item-number" value="Item-number"/>
+          <parameter key="Activity" value="Activity"/>
+          <parameter key="Participant" value="Participant"/>
+          <parameter key="Producer" value="Producer"/>
+          <parameter key="Consumer" value="Consumer"/>
+          <parameter key="ID" value="id"/>
+        </list>
+      </operator>
+      <operator activated="true" class="numerical_to_binominal" compatibility="9.6.000" expanded="true" height="82" name="Numerical to Binominal" width="90" x="648" y="442">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value="exact-location-of"/>
+        <parameter key="attributes" value="2D Boxy|3D Boxy|Acriss-code|Activity|Arm|Barking|Beak|Cell|Chainset|Chair-apron|Citizenship|Clear|Cloth|Consumer|Control-type|Cow-marker|Door|Ear|Engine|Exhaust|Eye|Face|Feather|Flower|Foot/Shoe|Furn. Arm|Furn. Back|Furn. Leg|Furn. Seat|Furry|Glass|Hair|Hand|Handlebars|Head|Headlight|Horiz Cyl|Horn|Hull|Item-number|Jet engine|Leaf|Leather|Leg|Light-need|Locomotive|Mane|Mast|Metal|Mouth|Nose|Occluded|Participant|Pedal|Plastic|Plumage|Pot|Producer|Propeller|Rein|Resolution|Retractable-claw|Room-placement|Round|Route-No|Row Wind|Saddle|Sail|Screen|Sheep-marker|Shiny|Side mirro|Skin|Snout|Stem/Trunk|Table-top|Tail|Taillight|Text|Throttle-grip|Torso|Upholstery|Vegetation|Vert Cyl|Vertical-stabilizer|Wheel|Window|Wing|Wood|Wool|Narrow-Neck"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="numeric"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="real"/>
+        <parameter key="block_type" value="value_series"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_series_end"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="true"/>
+        <parameter key="min" value="0.0"/>
+        <parameter key="max" value="0.0"/>
+      </operator>
+      <operator activated="true" class="apply_model" compatibility="9.6.000" expanded="true" height="82" name="Apply Model" origin="GENERATED_TUTORIAL" width="90" x="782" y="187">
+        <list key="application_parameters"/>
+        <parameter key="create_view" value="false"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="9.6.000" expanded="true" height="82" name="Select Attributes (3)" width="90" x="1050" y="289">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value="2D Boxy|3D Boxy|Acriss-code|Activity|area Fraction_Global Statistics|Arm|ball|Barking|baseball|Beak|black|bus|Cell|center_x_Global Statistics|center_y_Global Statistics|Chainset|Chair-apron|Citizenship|class 0|class 1|class 2|class 3|class 4|class 5|class 6|class 7|Clear|clock|Cloth|computer|confidence(2D Boxy = false)|confidence(3D Boxy = false)|confidence(Acriss-code = false)|confidence(Activity = false)|confidence(Arm = false)|confidence(ball = false)|confidence(Barking = false)|confidence(baseball = false)|confidence(Beak = false)|confidence(black = false)|confidence(bus = false)|confidence(Cell = false)|confidence(Chainset = false)|confidence(Chair-apron = false)|confidence(Citizenship = false)|confidence(Clear = false)|confidence(clock = false)|confidence(Cloth = false)|confidence(computer = false)|confidence(Consumer = false)|confidence(Control-type = false)|confidence(couple = false)|confidence(covered = false)|confidence(Cow-marker = false)|confidence(desk = false)|confidence(Door = false)|confidence(driving = false)|confidence(Ear = false)|confidence(Engine = false)|confidence(Exhaust = false)|confidence(Eye = false)|confidence(Face = false)|confidence(Feather = false)|confidence(field = false)|confidence(Flower = false)|confidence(flying = false)|confidence(food = false)|confidence(Foot/Shoe = false)|confidence(Furn. Arm = false)|confidence(Furn. Back = false)|confidence(Furn. Leg = false)|confidence(Furn. Seat = false)|confidence(Furry = false)|confidence(game = false)|confidence(Glass = false)|confidence(group = false)|confidence(Hair = false)|confidence(Hand = false)|confidence(Handlebars = false)|confidence(Head = false)|confidence(Headlight = false)|confidence(holding = false)|confidence(Horiz Cyl = false)|confidence(Horn = false)|confidence(Hull = false)|confidence(Item-number = false)|confidence(Jet engine = false)|confidence(laptop = false)|confidence(Leaf = false)|confidence(Leather = false)|confidence(Leg = false)|confidence(Light-need = false)|confidence(Locomotive = false)|confidence(man = false)|confidence(Mane = false)|confidence(Mast = false)|confidence(Metal = false)|confidence(Mouth = false)|confidence(Narrow-Neck = false)|confidence(Nose = false)|confidence(Occluded = false)|confidence(Participant = false)|confidence(Pedal = false)|confidence(people = false)|confidence(person = false)|confidence(photo = false)|confidence(Plastic = false)|confidence(plate = false)|confidence(player = false)|confidence(playing = false)|confidence(Plumage = false)|confidence(Pot = false)|confidence(Producer = false)|confidence(Propeller = false)|confidence(Rein = false)|confidence(Resolution = false)|confidence(Retractable-claw = false)|confidence(riding = false)|confidence(road = false)|confidence(Room-placement = false)|confidence(Round = false)|confidence(Route-No = false)|confidence(Row Wind = false)|confidence(Saddle = false)|confidence(Sail = false)|confidence(Screen = false)|confidence(Sheep-marker = false)|confidence(Shiny = false)|confidence(side = false)|confidence(Side mirro = false)|confidence(sitting = false)|confidence(skateboard = false)|confidence(Skin = false)|confidence(skis = false)|confidence(slope = false)|confidence(Snout = false)|confidence(snow = false)|confidence(standing = false)|confidence(Stem/Trunk = false)|confidence(street = false)|confidence(table = false)|confidence(Table-top = false)|confidence(Tail = false)|confidence(Taillight = false)|confidence(tennis = false)|confidence(Text = false)|confidence(Throttle-grip = false)|confidence(top = false)|confidence(Torso = false)|confidence(Upholstery = false)|confidence(Vegetation = false)|confidence(Vert Cyl = false)|confidence(Vertical-stabilizer = false)|confidence(Wheel = false)|confidence(white = false)|confidence(Window = false)|confidence(Wing = false)|confidence(Wood = false)|confidence(Wool = false)|Consumer|Control-type|couple|covered|Cow-marker|desk|Door|driving|Ear|Engine|Exhaust|Eye|Face|Feather|field|Flower|flying|food|Foot/Shoe|Furn. Arm|Furn. Back|Furn. Leg|Furn. Seat|Furry|game|Glass|group|Hair|Hand|Handlebars|Head|Headlight|holding|Horiz Cyl|Horn|Hull|Item-number|Jet engine|kurtosis_Global Statistics|laptop|Leaf|Leather|Leg|Light-need|Locomotive|low_f_0|low_f_1|low_f_2|low_f_3|man|Mane|Mast|max gray value_Global Statistics|mean_Global Statistics|Metal|min gray value_Global Statistics|Mouth|Narrow-Neck|Nose|Occluded|Participant|peak_Global Statistics|Pedal|people|person|photo|Plastic|plate|player|playing|Plumage|Pot|prediction(2D Boxy)|prediction(3D Boxy)|prediction(Acriss-code)|prediction(Activity)|prediction(Arm)|prediction(ball)|prediction(Barking)|prediction(baseball)|prediction(Beak)|prediction(black)|prediction(bus)|prediction(Cell)|prediction(Chainset)|prediction(Chair-apron)|prediction(Citizenship)|prediction(Clear)|prediction(clock)|prediction(Cloth)|prediction(computer)|prediction(Consumer)|prediction(Control-type)|prediction(couple)|prediction(covered)|prediction(Cow-marker)|prediction(desk)|prediction(Door)|prediction(driving)|prediction(Ear)|prediction(Engine)|prediction(Exhaust)|prediction(Eye)|prediction(Face)|prediction(Feather)|prediction(field)|prediction(Flower)|prediction(flying)|prediction(food)|prediction(Foot/Shoe)|prediction(Furn. Arm)|prediction(Furn. Back)|prediction(Furn. Leg)|prediction(Furn. Seat)|prediction(Furry)|prediction(game)|prediction(Glass)|prediction(group)|prediction(Hair)|prediction(Hand)|prediction(Handlebars)|prediction(Head)|prediction(Headlight)|prediction(holding)|prediction(Horiz Cyl)|prediction(Horn)|prediction(Hull)|prediction(Item-number)|prediction(Jet engine)|prediction(laptop)|prediction(Leaf)|prediction(Leather)|prediction(Leg)|prediction(Light-need)|prediction(Locomotive)|prediction(low_f_0)|prediction(low_f_1)|prediction(low_f_2)|prediction(low_f_3)|prediction(man)|prediction(Mane)|prediction(Mast)|prediction(Metal)|prediction(Mouth)|prediction(Narrow-Neck)|prediction(Nose)|prediction(Occluded)|prediction(Participant)|prediction(Pedal)|prediction(people)|prediction(person)|prediction(photo)|prediction(Plastic)|prediction(plate)|prediction(player)|prediction(playing)|prediction(Plumage)|prediction(Pot)|prediction(Producer)|prediction(Propeller)|prediction(Rein)|prediction(Resolution)|prediction(Retractable-claw)|prediction(riding)|prediction(road)|prediction(Room-placement)|prediction(Round)|prediction(Route-No)|prediction(Row Wind)|prediction(Saddle)|prediction(Sail)|prediction(Screen)|prediction(Sheep-marker)|prediction(Shiny)|prediction(Side mirro)|prediction(side)|prediction(sitting)|prediction(skateboard)|prediction(Skin)|prediction(skis)|prediction(slope)|prediction(Snout)|prediction(snow)|prediction(standing)|prediction(Stem/Trunk)|prediction(street)|prediction(table)|prediction(Table-top)|prediction(Tail)|prediction(Taillight)|prediction(tennis)|prediction(Text)|prediction(Throttle-grip)|prediction(top)|prediction(Torso)|prediction(Upholstery)|prediction(Vegetation)|prediction(Vert Cyl)|prediction(Vertical-stabilizer)|prediction(Wheel)|prediction(white)|prediction(Window)|prediction(Wing)|prediction(Wood)|prediction(Wool)|Producer|Propeller|Rein|Resolution|Retractable-claw|riding|road|Room-placement|Round|Route-No|Row Wind|Saddle|Sail|Screen|Sheep-marker|Shiny|side|Side mirro|sitting|skateboard|skewness_Global Statistics|Skin|skis|slope|Snout|snow|standard deviation_Global Statistics|standing|Stem/Trunk|street|table|Table-top|Tail|Taillight|tennis|Text|Throttle-grip|top|Torso|Upholstery|Vegetation|Vert Cyl|Vertical-stabilizer|Wheel|white|Window|Wing|Wood|Wool"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="true"/>
+        <parameter key="include_special_attributes" value="true"/>
+      </operator>
+      <operator activated="true" class="write_excel" compatibility="9.6.000" expanded="true" height="103" name="Write Excel" width="90" x="1117" y="391">
+        <parameter key="excel_file" value="/Users/mattiafumagalli/Desktop/aPascal-vision-result.xlsx"/>
+        <parameter key="file_format" value="xlsx"/>
+        <enumeration key="sheet_names"/>
+        <parameter key="sheet_name" value="RapidMiner Data"/>
+        <parameter key="date_format" value="yyyy-MM-dd HH:mm:ss"/>
+        <parameter key="number_format" value="#.0"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <connect from_op="Retrieve onto_aPascal_home_domain" from_port="output" to_op="Select Attributes (2)" to_port="example set input"/>
+      <connect from_op="Select Attributes (2)" from_port="example set output" to_op="Set Role (2)" to_port="example set input"/>
+      <connect from_op="Set Role (2)" from_port="example set output" to_op="Numerical to Binominal (2)" to_port="example set input"/>
+      <connect from_op="Numerical to Binominal (2)" from_port="example set output" to_op="Multi Label Modeling (2)" to_port="training set"/>
+      <connect from_op="Multi Label Modeling (2)" from_port="model" to_op="Apply Model" to_port="model"/>
+      <connect from_op="Multi Label Modeling (2)" from_port="output 1" to_op="Append" to_port="example set 1"/>
+      <connect from_op="Append" from_port="merged set" to_op="Write Excel (3)" to_port="input"/>
+      <connect from_op="Retrieve onto_aPascal_travel_domain" from_port="output" to_op="Select Attributes (4)" to_port="example set input"/>
+      <connect from_op="Select Attributes (4)" from_port="example set output" to_op="Set Role" to_port="example set input"/>
+      <connect from_op="Set Role" from_port="example set output" to_op="Numerical to Binominal" to_port="example set input"/>
+      <connect from_op="Numerical to Binominal" from_port="example set output" to_op="Apply Model" to_port="unlabelled data"/>
+      <connect from_op="Apply Model" from_port="labelled data" to_op="Select Attributes (3)" to_port="example set input"/>
+      <connect from_op="Apply Model" from_port="model" to_port="result 1"/>
+      <connect from_op="Select Attributes (3)" from_port="example set output" to_op="Write Excel" to_port="input"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+    </process>
+  </operator>
+</process>
