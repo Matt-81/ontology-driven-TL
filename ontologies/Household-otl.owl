@@ -1,0 +1,1155 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#"
+     xml:base="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:otl="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#otl:"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:otl1="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Houshold-otl#otl:">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl">
+        <otl1:description>The &quot;Household&quot; ontology used in the experiment of the &quot;Ontology-Driven Cross-Domain Transfer Learning&quot; paper</otl1:description>
+        <otl1:title>Household-otl</otl1:title>
+        <otl:subject>Household :)</otl:subject>
+        <otl1:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</otl1:versionInfo>
+        <otl:date>2020-05</otl:date>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#otl:date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#otl:date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#otl:description -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#otl:description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#otl:subject -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#otl:subject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#otl:versionInfo -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#otl:versionInfo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Acriss-code -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Acriss-code">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Car"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Activity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Activity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Arm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Arm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Barking -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Barking">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Dog"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Beak -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Beak">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bird"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cell -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cell">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Living-thing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Chainset -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Chainset">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bicycle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Chair-apron -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Chair-apron">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Chair"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Citizenship -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Citizenship">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Clear -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Clear">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bottle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Table"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cloth -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cloth">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Chair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Diningtable"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Sofa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Consumer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Consumer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Control-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Control-type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Vehicle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cow-marker -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cow-marker">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Door -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Door">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Car"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Ear -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Ear">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Dog"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Engine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Engine">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Car"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Exhaust -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Exhaust">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Car"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Eye -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Eye">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bird"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Dog"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Face -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Face">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Feather -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Feather">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bird"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Flower -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Flower">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Plant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Furn._Arm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Furn._Arm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Chair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Sofa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Furn._Back -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Furn._Back">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Furn._Leg -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Furn._Leg">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Chair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Sofa"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Table"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Furn._Seat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Furn._Seat">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Chair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Sofa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Furry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Furry">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Dog"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Glass -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Glass">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bottle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Diningtable"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#TVmonitor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Hair -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Hair">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Hand -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Hand">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Handlebars -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Handlebars">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bicycle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Head -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Head">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bird"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Dog"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Headlight -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Headlight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bicycle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Car"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Horiz_Cyl -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Horiz_Cyl">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bottle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Pottedplant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Horn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Horn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Hull -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Hull">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Item-number -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Item-number">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Instrument"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Jet_engine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Jet_engine">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Leaf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Leaf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Pottedplant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Leather -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Leather">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Sofa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Leg -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Leg">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bird"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Dog"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Light-need -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Light-need">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Plant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Locomotive -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Locomotive">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Mane -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Mane">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Mast -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Mast">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Metal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Metal">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bicycle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bottle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Car"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Chair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#TVmonitor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Mouth -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Mouth">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Narrow-Neck -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Narrow-Neck">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bottle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Nose -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Nose">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Occluded -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Occluded">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Agent"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bicycle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Car"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Furniture"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Instrument"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Participant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Participant">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Pedal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Pedal">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bicycle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Plastic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Plastic">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bicycle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bottle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Chair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Diningtable"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Sofa"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#TVmonitor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Plumage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Plumage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bird"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Pot -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Pot">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Pottedplant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Producer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Producer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Propeller -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Propeller">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Rein -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Rein">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Resolution -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Resolution">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#TVmonitor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Retractable-claw -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Retractable-claw">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Room-placement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Room-placement">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Furniture"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Round -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Round">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Sofa"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Table"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Route-No -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Route-No">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Row_Wind -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Row_Wind">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Saddle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Saddle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Sail -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Sail">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Screen -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Screen">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#TVmonitor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Sheep-marker -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Sheep-marker">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Shiny -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Shiny">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bicycle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bottle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Car"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Chair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Diningtable"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#TVmonitor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Side_mirro -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Side_mirro">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Skin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Skin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Snout -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Snout">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Dog"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Table-top -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Table-top">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Diningtable"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Tail -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Tail">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Dog"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Taillight -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Taillight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bicycle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Car"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Text -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Text">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bicycle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Throttle-grip -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Throttle-grip">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Torso -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Torso">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bird"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Dog"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Upholstery -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Upholstery">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Sofa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Vegetation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Vegetation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Plant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Vert_Cyl -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Vert_Cyl">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bottle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Pottedplant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Vertical-stabilizer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Vertical-stabilizer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Wheel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Wheel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bicycle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Car"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Window -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Window">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Car"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Wing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Wing">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bird"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Wood -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Wood">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Chair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Sofa"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Table"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Wool -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Wool">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#2D_Boxy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#2D_Boxy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bicycle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Chair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Diningtable"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Sofa"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#TVmonitor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#3D_Boxy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#3D_Boxy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Car"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Chair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Sofa"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#TVmonitor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Foot/Shoe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Foot/Shoe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bird"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Stem/Trunk -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Stem/Trunk">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Pottedplant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Agent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bicycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bicycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Two-wheeled-vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bird -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bird">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Domestic-animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bottle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Bottle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Container"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Car -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Car">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Four-wheeled-vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Cat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Domestic-animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Chair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Chair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Seat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Container -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Container">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Device">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Diningtable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Diningtable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Table"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Dog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Dog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Domestic-animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Domestic-animal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Domestic-animal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Living-thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Entity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Four-wheeled-vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Four-wheeled-vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Furniture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Furniture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Instrument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Instrument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Living-thing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Living-thing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Living-thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Plant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Plant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Living-thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Pottedplant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Pottedplant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Plant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Product">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Seat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Seat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Furniture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Sofa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Sofa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Seat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#TVmonitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#TVmonitor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Table -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Table">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Furniture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Two-wheeled-vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Two-wheeled-vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#Product"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

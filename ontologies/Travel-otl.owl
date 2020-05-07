@@ -1,0 +1,1193 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#"
+     xml:base="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:otl="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Household-otl#otl:"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:otl1="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Houshold-otl#otl:"
+     xmlns:otl2="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#otl:">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl">
+        <otl1:description>The &quot;Travel&quot; ontology used in the experiment of the &quot;Ontology-Driven Cross-Domain Transfer Learning&quot; paper</otl1:description>
+        <otl1:title>Travel-otl</otl1:title>
+        <otl1:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</otl1:versionInfo>
+        <otl:subject>Travel :)</otl:subject>
+        <otl:date>2020-05</otl:date>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#otl:date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#otl:date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#otl:description -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#otl:description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#otl:subject -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#otl:subject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#otl:versionInfo -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#otl:versionInfo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Acriss-code -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Acriss-code">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Car"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Activity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Activity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Arm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Arm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Barking -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Barking">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Dog"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Beak -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Beak">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bird"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cell -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cell">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Living-thing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Chainset -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Chainset">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Chair-apron -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Chair-apron">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Citizenship -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Citizenship">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Clear -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Clear">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bottle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cloth -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cloth">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Consumer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Consumer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Control-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Control-type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Vehicle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cow-marker -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cow-marker">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cow"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Door -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Door">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Car"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Train"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Ear -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Ear">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cow"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Dog"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Sheep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Engine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Engine">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Car"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Motorbike"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Exhaust -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Exhaust">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Car"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Motorbike"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Train"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Eye -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Eye">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bird"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cow"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Dog"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Sheep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Face -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Face">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Feather -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Feather">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bird"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Flower -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Flower">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Furn._Arm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Furn._Arm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Furn._Back -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Furn._Back">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Furn._Leg -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Furn._Leg">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Furn._Seat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Furn._Seat">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Furry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Furry">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cow"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Dog"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horse"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Glass -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Glass">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bottle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Hair -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Hair">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Hand -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Hand">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Handlebars -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Handlebars">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Motorbike"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Head -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Head">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bird"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cow"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Dog"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Sheep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Headlight -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Headlight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Car"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Motorbike"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Train"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horiz_Cyl -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horiz_Cyl">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bottle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Train"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cow"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Hull -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Hull">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Item-number -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Item-number">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Instrument"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Jet_engine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Jet_engine">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Leaf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Leaf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Leather -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Leather">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Leg -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Leg">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bird"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cow"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Dog"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Light-need -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Light-need">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Locomotive -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Locomotive">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Train"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Mane -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Mane">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horse"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Mast -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Mast">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Metal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Metal">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bottle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Car"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Motorbike"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Train"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Mouth -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Mouth">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Narrow-Neck -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Narrow-Neck">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bottle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Nose -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Nose">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Occluded -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Occluded">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Agent"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Car"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Instrument"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Motorbike"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Sheep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Participant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Participant">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Pedal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Pedal">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Plastic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Plastic">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bottle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Motorbike"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Plumage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Plumage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bird"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Pot -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Pot">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Producer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Producer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Propeller -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Propeller">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Rein -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Rein">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cow"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horse"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Resolution -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Resolution">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Retractable-claw -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Retractable-claw">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Room-placement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Room-placement">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Round -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Round">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Train"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Route-No -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Route-No">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Row_Wind -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Row_Wind">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Car"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Train"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Saddle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Saddle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horse"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Sail -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Sail">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Screen -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Screen">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Sheep-marker -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Sheep-marker">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Sheep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Shiny -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Shiny">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bottle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Car"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Motorbike"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Train"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Side_mirro -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Side_mirro">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Skin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Skin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Snout -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Snout">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cow"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Dog"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horse"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Table-top -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Table-top">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Tail -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Tail">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cow"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Dog"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Sheep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Taillight -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Taillight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Car"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Motorbike"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Train"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Text -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Text">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Motorbike"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Throttle-grip -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Throttle-grip">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Motorbike"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Torso -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Torso">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bird"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cow"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Dog"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Sheep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Upholstery -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Upholstery">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Vegetation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Vegetation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Vert_Cyl -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Vert_Cyl">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bottle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Train"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Vertical-stabilizer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Vertical-stabilizer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Wheel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Wheel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Car"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Motorbike"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Window -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Window">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Car"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Train"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Wing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Wing">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bird"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Wood -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Wood">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Wool -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Wool">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Sheep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#2D_Boxy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#2D_Boxy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#3D_Boxy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#3D_Boxy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Car"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Train"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Foot/Shoe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Foot/Shoe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bird"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cow"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Sheep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Stem/Trunk -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Stem/Trunk">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Aeroplane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Air-vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Agent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Air-vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Air-vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bird -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bird">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Flying-animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Boat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Water-vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bottle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bottle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Vessel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Bus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Wheeled-vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Car -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Car">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Wheeled-vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Cow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Four-footed-animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Dog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Dog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Four-footed-animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Entity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Flying-animal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Flying-animal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Living-thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Four-footed-animal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Four-footed-animal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Living-thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Horse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Four-footed-animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Instrument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Instrument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Living-thing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Living-thing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Motorbike -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Motorbike">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Wheeled-vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Living-thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Product">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Railway-vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Railway-vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Sheep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Sheep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Four-footed-animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Train -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Train">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Railway-vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Vessel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Vessel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Water-vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Water-vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Wheeled-vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Wheeled-vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mattiafumagalli/ontologies/2020/4/Travel-otl#Vehicle"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
