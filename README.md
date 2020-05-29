@@ -18,7 +18,7 @@ By converting the given ontologies into a set of triples and filtering the tripl
 ### Data
 This folder contains:
 #the matrices derived from the ontologies to train the class predictor (notice that each matrix is used for each trial, i.e., SoA, Domain, TLO).
-#the training set to give as input of the property predictor
+#the training set to be given as input of the property predictor
 #the test set to be used as test input of the class predictor
 
 ### Reference
